@@ -1,0 +1,4 @@
+string light_state
+---
+bool success
+string message

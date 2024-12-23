@@ -1,0 +1,6 @@
+#Request
+bool temp_state
+---
+#Response
+bool success
+string message
