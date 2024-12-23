@@ -1,0 +1,66 @@
+[0.883s] Invoking command in '/home/kronbii/github-repos/ROS2-Smart-Home-System/house_node': AMENT_PREFIX_PATH=/home/kronbii/github-repos/ROS2-Smart-Home-System/install/house_interface:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/kronbii/github-repos/ROS2-Smart-Home-System/install/house_interface:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/kronbii/github-repos/ROS2-Smart-Home-System/install/house_interface/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/kronbii/github-repos/ROS2-Smart-Home-System/build/house_node/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kronbii/github-repos/ROS2-Smart-Home-System/install/house_node/lib/python3.12/site-packages:/home/kronbii/github-repos/ROS2-Smart-Home-System/install/house_interface/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/house_node build --build-base /home/kronbii/github-repos/ROS2-Smart-Home-System/build/house_node/build install --record /home/kronbii/github-repos/ROS2-Smart-Home-System/build/house_node/install.log --single-version-externally-managed install_data
+[1.148s] running egg_info
+[1.149s] creating ../build/house_node/house_node.egg-info
+[1.170s] writing ../build/house_node/house_node.egg-info/PKG-INFO
+[1.171s] writing dependency_links to ../build/house_node/house_node.egg-info/dependency_links.txt
+[1.171s] writing entry points to ../build/house_node/house_node.egg-info/entry_points.txt
+[1.171s] writing requirements to ../build/house_node/house_node.egg-info/requires.txt
+[1.171s] writing top-level names to ../build/house_node/house_node.egg-info/top_level.txt
+[1.171s] writing manifest file '../build/house_node/house_node.egg-info/SOURCES.txt'
+[1.216s] reading manifest file '../build/house_node/house_node.egg-info/SOURCES.txt'
+[1.216s] adding license file 'LICENSE'
+[1.216s] writing manifest file '../build/house_node/house_node.egg-info/SOURCES.txt'
+[1.216s] running build
+[1.216s] running build_py
+[1.217s] creating /home/kronbii/github-repos/ROS2-Smart-Home-System/build/house_node/build
+[1.217s] creating /home/kronbii/github-repos/ROS2-Smart-Home-System/build/house_node/build/lib
+[1.217s] creating /home/kronbii/github-repos/ROS2-Smart-Home-System/build/house_node/build/lib/house_node
+[1.217s] copying house_node/SecurityControlService.py -> /home/kronbii/github-repos/ROS2-Smart-Home-System/build/house_node/build/lib/house_node
+[1.217s] copying house_node/TempControlService.py -> /home/kronbii/github-repos/ROS2-Smart-Home-System/build/house_node/build/lib/house_node
+[1.217s] copying house_node/LightActionClient.py -> /home/kronbii/github-repos/ROS2-Smart-Home-System/build/house_node/build/lib/house_node
+[1.217s] copying house_node/SecurityControlPub.py -> /home/kronbii/github-repos/ROS2-Smart-Home-System/build/house_node/build/lib/house_node
+[1.217s] copying house_node/LightControlService.py -> /home/kronbii/github-repos/ROS2-Smart-Home-System/build/house_node/build/lib/house_node
+[1.217s] copying house_node/TempActionClient.py -> /home/kronbii/github-repos/ROS2-Smart-Home-System/build/house_node/build/lib/house_node
+[1.218s] copying house_node/__init__.py -> /home/kronbii/github-repos/ROS2-Smart-Home-System/build/house_node/build/lib/house_node
+[1.218s] copying house_node/TempControlClient.py -> /home/kronbii/github-repos/ROS2-Smart-Home-System/build/house_node/build/lib/house_node
+[1.218s] copying house_node/LightControlClient.py -> /home/kronbii/github-repos/ROS2-Smart-Home-System/build/house_node/build/lib/house_node
+[1.218s] running install
+[1.223s] running install_lib
+[1.246s] creating /home/kronbii/github-repos/ROS2-Smart-Home-System/install/house_node/lib/python3.12/site-packages/house_node
+[1.246s] copying /home/kronbii/github-repos/ROS2-Smart-Home-System/build/house_node/build/lib/house_node/SecurityControlService.py -> /home/kronbii/github-repos/ROS2-Smart-Home-System/install/house_node/lib/python3.12/site-packages/house_node
+[1.246s] copying /home/kronbii/github-repos/ROS2-Smart-Home-System/build/house_node/build/lib/house_node/TempControlService.py -> /home/kronbii/github-repos/ROS2-Smart-Home-System/install/house_node/lib/python3.12/site-packages/house_node
+[1.246s] copying /home/kronbii/github-repos/ROS2-Smart-Home-System/build/house_node/build/lib/house_node/LightActionClient.py -> /home/kronbii/github-repos/ROS2-Smart-Home-System/install/house_node/lib/python3.12/site-packages/house_node
+[1.246s] copying /home/kronbii/github-repos/ROS2-Smart-Home-System/build/house_node/build/lib/house_node/SecurityControlPub.py -> /home/kronbii/github-repos/ROS2-Smart-Home-System/install/house_node/lib/python3.12/site-packages/house_node
+[1.246s] copying /home/kronbii/github-repos/ROS2-Smart-Home-System/build/house_node/build/lib/house_node/LightControlService.py -> /home/kronbii/github-repos/ROS2-Smart-Home-System/install/house_node/lib/python3.12/site-packages/house_node
+[1.246s] copying /home/kronbii/github-repos/ROS2-Smart-Home-System/build/house_node/build/lib/house_node/TempActionClient.py -> /home/kronbii/github-repos/ROS2-Smart-Home-System/install/house_node/lib/python3.12/site-packages/house_node
+[1.247s] copying /home/kronbii/github-repos/ROS2-Smart-Home-System/build/house_node/build/lib/house_node/__init__.py -> /home/kronbii/github-repos/ROS2-Smart-Home-System/install/house_node/lib/python3.12/site-packages/house_node
+[1.247s] copying /home/kronbii/github-repos/ROS2-Smart-Home-System/build/house_node/build/lib/house_node/TempControlClient.py -> /home/kronbii/github-repos/ROS2-Smart-Home-System/install/house_node/lib/python3.12/site-packages/house_node
+[1.247s] copying /home/kronbii/github-repos/ROS2-Smart-Home-System/build/house_node/build/lib/house_node/LightControlClient.py -> /home/kronbii/github-repos/ROS2-Smart-Home-System/install/house_node/lib/python3.12/site-packages/house_node
+[1.247s] byte-compiling /home/kronbii/github-repos/ROS2-Smart-Home-System/install/house_node/lib/python3.12/site-packages/house_node/SecurityControlService.py to SecurityControlService.cpython-312.pyc
+[1.247s] byte-compiling /home/kronbii/github-repos/ROS2-Smart-Home-System/install/house_node/lib/python3.12/site-packages/house_node/TempControlService.py to TempControlService.cpython-312.pyc
+[1.248s] byte-compiling /home/kronbii/github-repos/ROS2-Smart-Home-System/install/house_node/lib/python3.12/site-packages/house_node/LightActionClient.py to LightActionClient.cpython-312.pyc
+[1.248s] byte-compiling /home/kronbii/github-repos/ROS2-Smart-Home-System/install/house_node/lib/python3.12/site-packages/house_node/SecurityControlPub.py to SecurityControlPub.cpython-312.pyc
+[1.249s] byte-compiling /home/kronbii/github-repos/ROS2-Smart-Home-System/install/house_node/lib/python3.12/site-packages/house_node/LightControlService.py to LightControlService.cpython-312.pyc
+[1.250s] byte-compiling /home/kronbii/github-repos/ROS2-Smart-Home-System/install/house_node/lib/python3.12/site-packages/house_node/TempActionClient.py to TempActionClient.cpython-312.pyc
+[1.250s] byte-compiling /home/kronbii/github-repos/ROS2-Smart-Home-System/install/house_node/lib/python3.12/site-packages/house_node/__init__.py to __init__.cpython-312.pyc
+[1.250s] byte-compiling /home/kronbii/github-repos/ROS2-Smart-Home-System/install/house_node/lib/python3.12/site-packages/house_node/TempControlClient.py to TempControlClient.cpython-312.pyc
+[1.251s] byte-compiling /home/kronbii/github-repos/ROS2-Smart-Home-System/install/house_node/lib/python3.12/site-packages/house_node/LightControlClient.py to LightControlClient.cpython-312.pyc
+[1.251s] running install_data
+[1.251s] creating /home/kronbii/github-repos/ROS2-Smart-Home-System/install/house_node/share/ament_index
+[1.251s] creating /home/kronbii/github-repos/ROS2-Smart-Home-System/install/house_node/share/ament_index/resource_index
+[1.251s] creating /home/kronbii/github-repos/ROS2-Smart-Home-System/install/house_node/share/ament_index/resource_index/packages
+[1.251s] copying resource/house_node -> /home/kronbii/github-repos/ROS2-Smart-Home-System/install/house_node/share/ament_index/resource_index/packages
+[1.252s] copying package.xml -> /home/kronbii/github-repos/ROS2-Smart-Home-System/install/house_node/share/house_node
+[1.252s] running install_egg_info
+[1.276s] Copying ../build/house_node/house_node.egg-info to /home/kronbii/github-repos/ROS2-Smart-Home-System/install/house_node/lib/python3.12/site-packages/house_node-0.0.0-py3.12.egg-info
+[1.277s] running install_scripts
+[1.406s] Installing auto_light_control script to /home/kronbii/github-repos/ROS2-Smart-Home-System/install/house_node/lib/house_node
+[1.406s] Installing auto_security_control script to /home/kronbii/github-repos/ROS2-Smart-Home-System/install/house_node/lib/house_node
+[1.407s] Installing auto_temp_control script to /home/kronbii/github-repos/ROS2-Smart-Home-System/install/house_node/lib/house_node
+[1.407s] Installing light_control_service script to /home/kronbii/github-repos/ROS2-Smart-Home-System/install/house_node/lib/house_node
+[1.407s] Installing security_switch script to /home/kronbii/github-repos/ROS2-Smart-Home-System/install/house_node/lib/house_node
+[1.407s] Installing switch_light script to /home/kronbii/github-repos/ROS2-Smart-Home-System/install/house_node/lib/house_node
+[1.407s] Installing switch_thermo script to /home/kronbii/github-repos/ROS2-Smart-Home-System/install/house_node/lib/house_node
+[1.407s] Installing temp_control_service script to /home/kronbii/github-repos/ROS2-Smart-Home-System/install/house_node/lib/house_node
+[1.407s] writing list of installed files to '/home/kronbii/github-repos/ROS2-Smart-Home-System/build/house_node/install.log'
+[1.427s] Invoked command in '/home/kronbii/github-repos/ROS2-Smart-Home-System/house_node' returned '0': AMENT_PREFIX_PATH=/home/kronbii/github-repos/ROS2-Smart-Home-System/install/house_interface:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/kronbii/github-repos/ROS2-Smart-Home-System/install/house_interface:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/kronbii/github-repos/ROS2-Smart-Home-System/install/house_interface/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/kronbii/github-repos/ROS2-Smart-Home-System/build/house_node/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kronbii/github-repos/ROS2-Smart-Home-System/install/house_node/lib/python3.12/site-packages:/home/kronbii/github-repos/ROS2-Smart-Home-System/install/house_interface/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/house_node build --build-base /home/kronbii/github-repos/ROS2-Smart-Home-System/build/house_node/build install --record /home/kronbii/github-repos/ROS2-Smart-Home-System/build/house_node/install.log --single-version-externally-managed install_data

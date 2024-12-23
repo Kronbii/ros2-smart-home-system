@@ -1,0 +1,26 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "house_interface/srv/LightState_Request",
+      "fields": [
+        {
+          "name": "light_state",
+          "type": {
+            "type_id": 17,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": []
+  },
+  "type_hashes": [
+    {
+      "type_name": "house_interface/srv/LightState_Request",
+      "hash_string": "RIHS01_e512bf8c0eae36ac4390dcc27038ffb4aadd711577434530a867b9db396d9286"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from house_interface/srv/SetSecurity.srv
+// generated code does not contain a copyright notice
+
+
+module house_interface {
+  module srv {
+    struct SetSecurity_Request {
+      string security_state;
+    };
+    struct SetSecurity_Response {
+      string message;
+
+      boolean success;
+    };
+  };
+};

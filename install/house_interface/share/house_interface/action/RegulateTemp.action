@@ -1,0 +1,8 @@
+#request
+float32 target_temp_level
+---
+#result
+float32 reached_temp_level
+---
+#feedback
+float32 current_temp_level

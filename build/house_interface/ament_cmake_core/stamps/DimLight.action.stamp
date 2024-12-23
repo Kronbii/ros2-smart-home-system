@@ -1,0 +1,8 @@
+#request
+float32 target_light_level
+---
+#result
+float32 reached_light_level
+---
+#feedback
+float32 current_light_level

@@ -1,0 +1,17 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from house_interface/srv/LightState.srv
+// generated code does not contain a copyright notice
+
+
+module house_interface {
+  module srv {
+    struct LightState_Request {
+      string light_state;
+    };
+    struct LightState_Response {
+      boolean success;
+
+      string message;
+    };
+  };
+};

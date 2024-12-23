@@ -1,0 +1,24 @@
+// generated from rosidl_adapter/resource/action.idl.em
+// with input from house_interface/action/DimLight.action
+// generated code does not contain a copyright notice
+
+
+module house_interface {
+  module action {
+    @verbatim (language="comment", text=
+      "request")
+    struct DimLight_Goal {
+      float target_light_level;
+    };
+    @verbatim (language="comment", text=
+      "result")
+    struct DimLight_Result {
+      float reached_light_level;
+    };
+    @verbatim (language="comment", text=
+      "feedback")
+    struct DimLight_Feedback {
+      float current_light_level;
+    };
+  };
+};

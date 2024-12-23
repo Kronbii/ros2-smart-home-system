@@ -1,0 +1,1 @@
+string light_state_msg

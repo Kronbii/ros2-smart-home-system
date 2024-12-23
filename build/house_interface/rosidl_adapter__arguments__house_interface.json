@@ -1,0 +1,15 @@
+{
+  "package_name": "house_interface",
+  "non_idl_tuples": [
+    "/home/kronbii/github-repos/ROS2-Smart-Home-System/house_interface:msg/TempStateMsg.msg",
+    "/home/kronbii/github-repos/ROS2-Smart-Home-System/house_interface:msg/MotionDetect.msg",
+    "/home/kronbii/github-repos/ROS2-Smart-Home-System/house_interface:msg/AmbientLight.msg",
+    "/home/kronbii/github-repos/ROS2-Smart-Home-System/house_interface:msg/LightStateMsg.msg",
+    "/home/kronbii/github-repos/ROS2-Smart-Home-System/house_interface:msg/SecurityStateMsg.msg",
+    "/home/kronbii/github-repos/ROS2-Smart-Home-System/house_interface:srv/LightState.srv",
+    "/home/kronbii/github-repos/ROS2-Smart-Home-System/house_interface:srv/SetTemp.srv",
+    "/home/kronbii/github-repos/ROS2-Smart-Home-System/house_interface:srv/SetSecurity.srv",
+    "/home/kronbii/github-repos/ROS2-Smart-Home-System/house_interface:action/DimLight.action",
+    "/home/kronbii/github-repos/ROS2-Smart-Home-System/house_interface:action/RegulateTemp.action"
+  ]
+}

@@ -1,0 +1,4 @@
+string security_state
+---
+string message
+bool success

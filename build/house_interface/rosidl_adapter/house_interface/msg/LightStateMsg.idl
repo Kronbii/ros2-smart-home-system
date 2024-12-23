@@ -1,0 +1,12 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from house_interface/msg/LightStateMsg.msg
+// generated code does not contain a copyright notice
+
+
+module house_interface {
+  module msg {
+    struct LightStateMsg {
+      string light_state_msg;
+    };
+  };
+};

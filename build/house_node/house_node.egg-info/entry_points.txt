@@ -1,0 +1,9 @@
+[console_scripts]
+auto_light_control = house_node.LightActionClient:main
+auto_security_control = house_node.SecurityControlService:main
+auto_temp_control = house_node.TempActionClient:main
+light_control_service = house_node.LightControlService:main
+security_switch = house_node.SecurityControlPub:main
+switch_light = house_node.LightControlClient:main
+switch_thermo = house_node.TempControlClient:main
+temp_control_service = house_node.TempControlService:main

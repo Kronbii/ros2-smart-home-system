@@ -1,0 +1,12 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from house_interface/msg/TempStateMsg.msg
+// generated code does not contain a copyright notice
+
+
+module house_interface {
+  module msg {
+    struct TempStateMsg {
+      string temp_state_msg;
+    };
+  };
+};

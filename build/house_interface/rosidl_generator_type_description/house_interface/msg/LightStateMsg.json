@@ -1,0 +1,26 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "house_interface/msg/LightStateMsg",
+      "fields": [
+        {
+          "name": "light_state_msg",
+          "type": {
+            "type_id": 17,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": []
+  },
+  "type_hashes": [
+    {
+      "type_name": "house_interface/msg/LightStateMsg",
+      "hash_string": "RIHS01_d9546ff510fe2d4cc472ebfe35072d15d98dbe063e01c1f8f56a6e451f3eeb33"
+    }
+  ]
+}

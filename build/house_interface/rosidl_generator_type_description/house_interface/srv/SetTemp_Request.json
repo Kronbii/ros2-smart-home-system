@@ -1,0 +1,26 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "house_interface/srv/SetTemp_Request",
+      "fields": [
+        {
+          "name": "temp_state",
+          "type": {
+            "type_id": 15,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": []
+  },
+  "type_hashes": [
+    {
+      "type_name": "house_interface/srv/SetTemp_Request",
+      "hash_string": "RIHS01_0eaf7ebff70794f963797127def26982076d9a78c0eb7bee0575f54e06bd81b7"
+    }
+  ]
+}

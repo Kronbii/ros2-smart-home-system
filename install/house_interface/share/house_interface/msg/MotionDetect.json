@@ -1,0 +1,26 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "house_interface/msg/MotionDetect",
+      "fields": [
+        {
+          "name": "motion",
+          "type": {
+            "type_id": 15,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": []
+  },
+  "type_hashes": [
+    {
+      "type_name": "house_interface/msg/MotionDetect",
+      "hash_string": "RIHS01_0628a1371809dc769ea04a4ae9d5e5f85f9828a5089671032bf6e374ea4559f7"
+    }
+  ]
+}
